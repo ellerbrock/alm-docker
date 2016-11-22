@@ -12,9 +12,7 @@ RUN mkdir /app && \
   npm i -g typescript tslint alm
 
 USER app
-
 ENV HOME=/app
-
 WORKDIR $HOME
 
 ENTRYPOINT ["alm"]
