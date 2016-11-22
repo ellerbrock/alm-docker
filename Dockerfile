@@ -1,10 +1,6 @@
 FROM alpine
 
-MAINTAINER Maik Ellerbrock (github.com/ellerbrock)
-
-ENV CONTAINER_VERSION 0.0.1
-ENV CONTAINER_NAME frapsoft/alm
-ENV CONTAINER_REPO https://github.com/ellerbrock/alm-docker
+MAINTAINER Maik Ellerbrock (https://github.com/ellerbrock)
 
 RUN mkdir /app && \
   adduser -h /app -s /bin/false -D app && \

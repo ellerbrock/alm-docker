@@ -2,7 +2,6 @@
 
 [![docker automated build](https://img.shields.io/docker/automated/frapsoft/alm.svg)](https://hub.docker.com/r/frapsoft/alm/) [![docker pulls](https://img.shields.io/docker/pulls/frapsoft/alm.svg)](https://hub.docker.com/r/frapsoft/alm/) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg)](https://github.com/ellerbrock/open-source-badges/) [![Gitter Chat](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
 
-
 - Docker Hub: [frapsoft/alm](https://hub.docker.com/r/frapsoft/alm/)
 - Repository: <https://github.com/ellerbrock/alm-docker>
 - Dockerfile: <https://github.com/ellerbrock/alm-docker/blob/master/Dockerfile>
