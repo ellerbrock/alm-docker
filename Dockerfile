@@ -7,6 +7,7 @@ RUN mkdir /app && \
   chown -R app:app /app && \
   apk update && \
   apk add --no-cache nodejs && \
+  rm -f /tmp/* /etc/apk/cache/* && \
   npm update && \
   npm i -g typescript tslint alm
 
